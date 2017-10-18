@@ -79,7 +79,7 @@ a{
 	margin: auto;
 }
 /* id=featuredTea Section*/
-
+/* setup background heigth, width, padding , and margin for featuredTea navigation menu*/
 #featuredTea{
 	padding-top: 70px;
 	height: 700px;
@@ -87,10 +87,13 @@ a{
 	margin: auto;
 }
 
+/* 'box' class represent to each picture, and <span> seaction of featuredTea*/
 .box{
 	padding: 5px;
 }
 
+
+/* shrinking the size of images, so they arranged in two coloumns */
 .box img{
 	height: 200px;
 	width: 300px;
@@ -98,6 +101,7 @@ a{
 	margin: 10px;
 }
 
+/* each <span> tag diplay next to their respective img tag*/
 .box span{
 	display: block;
 	font-weight: bold;
