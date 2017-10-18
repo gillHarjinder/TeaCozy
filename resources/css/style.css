@@ -54,10 +54,10 @@ a{
 	text-decoration: underline;
 }
 
-/*Main Body*/
+/* id=mission Body*/
 
-/* body of middle section of the page setup*/
-.middleSection{
+/* body of our mission page*/
+.missionSection{
 	padding-top: 69px;
 	width: 1200px;
 	margin: auto;
@@ -78,4 +78,11 @@ a{
 	width: 100%;
 	margin: auto;
 }
+/* id=featuredTea Body*/
+
+/* body of featured tea section*/
+
+
+
+
 /*footer*/
