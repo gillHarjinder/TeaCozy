@@ -55,10 +55,27 @@ a{
 }
 
 /*Main Body*/
+
+/* body of middle section of the page setup*/
 .middleSection{
 	padding-top: 69px;
 	width: 1200px;
 	margin: auto;
+
 }
 
+/* setup height, background and padding for middle section*/
+#mission{
+	height: 700px;
+	padding-top: 70px;
+	background-image: url(../../resources/images/img-mission-background.jpg);
+	margin-bottom: 0;
+}
+
+/* area where  the 'our Mission' text goes*/
+.pageMissionBody{
+	background-color: black;
+	width: 100%;
+	margin: auto;
+}
 /*footer*/
