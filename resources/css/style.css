@@ -1,4 +1,4 @@
-/* header part of web page*/
+/* for whole webpage*/
 /* Setup margin, padding, background color, of each web page*/
 body{
 	margin: 0;
@@ -78,7 +78,32 @@ a{
 	width: 100%;
 	margin: auto;
 }
-/* id=featuredTea Body*/
+/* id=featuredTea Section*/
+
+#featuredTea{
+	padding-top: 70px;
+	height: 700px;
+	width: 1000px;
+	margin: auto;
+}
+
+.box{
+	padding: 5px;
+}
+
+.box img{
+	height: 200px;
+	width: 300px;
+	display: block;
+	margin: 10px;
+}
+
+.box span{
+	display: block;
+	font-weight: bold;
+	text-align: center;
+	padding: 5px;
+}
 
 /* body of featured tea section*/
 
