@@ -28,7 +28,10 @@ header{
 	flex-wrap: wrap;
 }
 
-
+h2, h3, h4{
+	margin: 0;
+	padding: 10px;
+}
 /* setup the size, and padding for 'logo image' on top left corner */
 header img{
 	height: 50px;
@@ -57,7 +60,7 @@ a{
 /* id=mission Body*/
 
 /* body of our mission page*/
-.missionSection{
+.middleSection{
 	padding-top: 69px;
 	width: 1200px;
 	margin: auto;
@@ -109,7 +112,30 @@ a{
 	padding: 5px;
 }
 
-/* body of featured tea section*/
+/* body of location section*/
+/* id=locations Section*/
+/* setup background heigth, width, padding , and margin for locations navigation menu*/
+#locations{
+	padding-top: 70px;
+	background-image: url(../../resources/images/img-locations-background.jpg);
+	height: 500px;
+	margin: auto;
+}
+
+.container.locations{
+	padding-top: 5px;
+}
+
+.location{
+	opacity: 1.0;
+	margin: 5px 20px;
+	background-color: black;
+	flex-basis: 300px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
 
 
 
