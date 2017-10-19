@@ -28,6 +28,8 @@ header{
 	flex-wrap: wrap;
 }
 
+
+/* All the different heading get same padding and margin*/
 h2, h3, h4{
 	margin: 0;
 	padding: 10px;
@@ -122,10 +124,12 @@ a{
 	margin: auto;
 }
 
+/* padding for all column conatiners*/
 .container.locations{
 	padding-top: 5px;
 }
 
+/* each box of location size and arrangement as coulumn*/
 .location{
 	opacity: 1.0;
 	margin: 5px 20px;
@@ -136,7 +140,11 @@ a{
 	justify-content: center;
 }
 
-
+/** contacts */
+.contacts{
+	height: 200px;
+	width: 1200px;
+}
 
 
 
